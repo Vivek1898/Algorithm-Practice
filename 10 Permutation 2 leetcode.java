@@ -35,7 +35,7 @@ class Solution {
         
         HashMap<Integer,Integer> freq=new HashMap<>();
         //MAINTAIN FREQ IN HASHMAPS
-        //To count Unique elements
+        //To count Unique elemennts
         for(int i=0;i<nums.length;i++){
             if(freq.containsKey(nums[i])){
                 int val=freq.get(nums[i]);
