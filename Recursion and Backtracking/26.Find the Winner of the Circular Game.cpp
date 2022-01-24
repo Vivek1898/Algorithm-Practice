@@ -26,3 +26,25 @@ public:
         return q.front() + 1;
     }
 };
+
+// Indexing  Approach
+
+class Solution
+{
+public:
+    int helper(int n, int k)
+    {
+        if (n == 1)
+        {
+            // Return index
+            return 0;
+        }
+        return (helper(n - 1, k) + k) % n;
+    }
+    int findTheWinner(int n, int k)
+    {
+
+        int ans = helper(n, k);
+        return ans + 1;
+    }
+};
