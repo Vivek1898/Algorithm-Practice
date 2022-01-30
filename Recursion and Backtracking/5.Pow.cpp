@@ -1,7 +1,7 @@
 class Solution {
 public:
     double helper(double x, long n){
-        //For Positive cases
+        //For Poositive cases
         if(n==0) return 1.0;
         double temp =helper(x,n/2);
         //Even Double
