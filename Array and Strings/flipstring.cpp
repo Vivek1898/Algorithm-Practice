@@ -57,7 +57,7 @@ int reverse(int n)
 }
 // Start
 // to make palindromic indices array
-// frequencies
+// frequencies arr
 // poisition of each and every element
 void solve()
 {
