@@ -4,7 +4,7 @@ public:
     /**
      * @param nums: an array of integer
      * @param target: An integer
-     * @return: An integer
+     * @return: An intege
      */
     int twoSum6(vector<int> &numbers, int target)
     {
